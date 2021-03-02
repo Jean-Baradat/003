@@ -1,0 +1,10 @@
+Contenu : font-family:'Droid Sans',Arial,Verdana,sans-serif;
+Titres : font-family: 'Kreon', Arial, sans-serif;
+
+Droid Sans 
+Regular : http://themes.googleusercontent.com/static/fonts/droidsans/v3/s-BiyweUPV0v-yRb-cjciL3hpw3pgy2gAi-Ip7WPMi0.woff
+Bold : http://themes.googleusercontent.com/static/fonts/droidsans/v3/EFpQQyG9GqCrobXxL-KRMXbFhgvWbfSbdVg11QabG8w.woff
+
+Kreon
+Regular : http://themes.googleusercontent.com/static/fonts/kreon/v6/D9qk1GYStfykk6PrrE7M_aCWcynf_cDxXwCLxiixG1c.woff
+Light : http://themes.googleusercontent.com/static/fonts/kreon/v6/foDwQzChAOJL0-zU6ynhJ3YhjbSpvc47ee6xR_80Hnw.woff
