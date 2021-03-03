@@ -1,4 +1,10 @@
-body
-{
-	background-color: pink;
+html{
+	background-image: url(images/background.png);
+    background-color: #f4f4f4;
+}
+body{
+    box-shadow: 0 0 2px #dbdbdb, 0 0 .1px #dbdbdb;
+    background-color: white;
+    margin: 3% 15%;
+    max-height: 100%;
 }
