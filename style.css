@@ -25,3 +25,21 @@ body{
 
 
 
+div#logo :nth-child(2){
+    grid-area: b;
+    width: min-content;
+    margin-top:25px;
+    margin-bottom: 0;
+    font-family: 'Kreon', Arial, sans-serif;
+}
+div#logo :nth-child(3){
+    grid-area: c;
+    width: 210px;
+    margin: 0;
+    margin-top: -10px;
+    font-family:'Kreon', Arial, sans-serif;
+    font-size: small;
+    color: #7BA1A9;
+    
+}
+/* Fin Logo principal */
