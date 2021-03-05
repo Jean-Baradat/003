@@ -22,9 +22,22 @@ body{
     font-weight: normal;
     font-style: normal;
 }
-
-
-
+/* Logo principal */
+div#logo{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: min-content;
+    grid-template-areas: 
+        "a b ."
+        "a c ."
+        ". . .";
+}
+div#logo :nth-child(1){
+    grid-area: a;
+    margin-top: 25px;
+    margin-left: 35px;
+    padding-right: 5px;
+}
 div#logo :nth-child(2){
     grid-area: b;
     width: min-content;
