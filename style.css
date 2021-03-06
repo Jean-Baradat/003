@@ -61,3 +61,112 @@ div#logo :nth-child(3){
     font-weight: normal;
 }
 /* Fin Logo principal */
+
+/* Quote */
+
+.quote h2, .quote h3{
+    text-align: center;
+    font-weight: normal;
+}
+.quote h3{
+    color: silver;
+}
+
+/* Fin Quote */
+
+/* Articles */
+
+h2, h3{
+    font-family:'Kreon',Arial,Verdana,sans-serif;
+    font-weight: normal;
+    margin: 2%;
+}
+li, p{
+    font-family:'Droid Sans',Arial,Verdana,sans-serif;
+}
+.articles, .media{
+    margin-left: 5%;
+}
+.articles {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.articles p{
+    margin-right: 15%;
+    font-size: small;
+    color: #585858;
+}
+.articles h3{
+    text-transform: capitalize;
+}
+.grey{
+    margin: 0;
+    padding: 0;
+    background: #D7D7D7;
+    width: 240px;
+    height: 125px;
+}
+.icon{
+    display: none;
+    margin: -10000;
+}
+.grey:hover{
+    background-color: #EBEBEB;
+    cursor: pointer;
+}
+.grey:hover .icon{
+    display: block;
+    margin-left: 43%;
+    margin-top: -35.5%;
+}
+/* Fin Articles */
+
+/* Média */
+
+.media {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+.bulletpoint{
+    margin-top: 2%;
+}
+.bulletpoint li{
+    margin-left: -11.5%;
+    font-size: small;
+    color: #585858;
+    line-height: 25px;
+}
+.left{
+    margin: 2%;
+    margin-top: 3%;
+    float: left;
+}
+.padding{
+    border: 1px solid #D7D7D7;
+}
+.together img{
+    border: 1px solid #D7D7D7;
+    margin: 2%;
+    float: left;
+    width: 40px;
+    height: 40px;
+}
+.together img:hover{
+    background-color: #EBEBEB;
+    cursor: pointer;
+}
+.background{
+    margin: 0;
+    padding: 0;
+    background: #D7D7D7;
+}
+.right{
+    margin: 2%;
+    margin-top: 3%;
+    float: left;
+}
+.left:hover, .right:hover{
+    cursor: pointer;
+}
+/* Fin Multimédia */
+
