@@ -643,7 +643,7 @@ div#logo{
     }
 .footer p
 {
-	 font-size : small;
+	font-size : small;
 	color : #999;
-    }
-
+	font-family:'Droid Sans',Arial,Verdana,sans-serif;
+}
