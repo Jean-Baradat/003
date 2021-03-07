@@ -30,7 +30,6 @@
     display: flex;
     flex-flow: row wrap;
     padding: 50px;
-    color: #fff;
     background-color:whitesmoke;
     }
     
@@ -79,6 +78,8 @@
     .h-box {
     column-count: 1;
     column-gap: 5em;
+    max-width: 210px;
+    line-height: 32px;
     }
     
     .b-footer {
@@ -90,6 +91,7 @@
     .l-footer p {
     padding-right: 20%;
     color: #999;
+    max-width: 340px;
     }   
     
     @media screen and (min-width: 600px) {
