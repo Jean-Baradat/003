@@ -261,6 +261,7 @@ div.text-only
 .slide-content h2
 {
 	font-family: 'Kreon', Arial, sans-serif;
+	margin-top : 0;
 	padding-right : 40px;
 	font-size : 35px;
 	margin-bottom : 6px;
