@@ -1,65 +1,119 @@
 <!DOCTYPE html>
 <html lang="fr">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <header>
-            <div id="logo">
-                <img src="images/logo.png" alt="logo">
-                <h1>UE216</h1>
-                <h3>YOUR SLOGAN GOES HERE</h3>
+  <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Document</title>
+      <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+        <div id="logo">
+            <img src="images/logo.png" alt="logo">
+            <h1>UE216</h1>
+            <h3>YOUR SLOGAN GOES HERE</h3>
+        </div>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#" class="pageactive">HOME</a>
+                </li>
+                <li>
+                    <a href="#">ABOUT</a>
+                </li>
+                <li>
+                    <a href="#">CONTACT</a>
+                </li>
+                <li>
+                    <a href="#">PAGE TEMPLATES</a>
+                </li>
+                <li>
+                    <a href="#">SHORTCODES</a>
+                </li>
+                <li>
+                    <a href="#">BLOG</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="elementstopright">
+            <div class="searcharea">
+                <form action="#" method="get" class="formsearch">
+                    <input type="search" name="search" id="inputsearch" placeholder="Search this website...">
+                    <div class="inputsubmit">
+                        <input type="submit" value="">
+                    </div>
+                </form>
             </div>
-            <nav>
-                <ul>
-                    <li>
-                        <a href="#" class="pageactive">HOME</a>
-                    </li>
-                    <li>
-                        <a href="#">ABOUT</a>
-                    </li>
-                    <li>
-                        <a href="#">CONTACT</a>
-                    </li>
-                    <li>
-                        <a href="#">PAGE TEMPLATES</a>
-                    </li>
-                    <li>
-                        <a href="#">SHORTCODES</a>
-                    </li>
-                    <li>
-                        <a href="#">BLOG</a>
-                    </li>
-                </ul>
-            </nav>
-            <div class="elementstopright">
-                <div class="searcharea">
-                    <form action="#" method="get" class="formsearch">
-                        <input type="search" name="search" id="inputsearch" placeholder="Search this website...">
-                        <div class="inputsubmit">
-                            <input type="submit" value="">
-                        </div>
-                    </form>
-                </div>
-                <div class="imgsocialicons">
-                    <a href="#"><img src="images/twitter.png" alt="twitter"></a>
-                    <a href="#"><img src="images/rss.png" alt="rss"></a>
-                    <a href="#"><img src="images/facebook.png" alt="facebook"></a>
-                </div>
+            <div class="imgsocialicons">
+                <a href="#"><img src="images/twitter.png" alt="twitter"></a>
+                <a href="#"><img src="images/rss.png" alt="rss"></a>
+                <a href="#"><img src="images/facebook.png" alt="facebook"></a>
             </div>
-        </header>
-        <p>Post emensos insuperabilis expeditionis eventus languentibus partium animis, quas periculorum varietas fregerat et laborum, nondum tubarum cessante clangore vel milite locato per stationes hibernas, fortunae saevientis procellae tempestates alias rebus infudere communibus per multa illa et dira facinora Caesaris Galli, qui ex squalore imo miseriarum in aetatis adultae primitiis ad principale culmen insperato saltu provectus ultra terminos potestatis delatae procurrens asperitate nimia cuncta foedabat. propinquitate enim regiae stirpis gentilitateque etiam tum Constantini nominis efferebatur in fastus, si plus valuisset, ausurus hostilia in auctorem suae felicitatis, ut videbatur.
-
-            His cognitis Gallus ut serpens adpetitus telo vel saxo iamque spes extremas opperiens et succurrens saluti suae quavis ratione colligi omnes iussit armatos et cum starent attoniti, districta dentium acie stridens adeste inquit viri fortes mihi periclitanti vobiscum.
-            
-            Et eodem impetu Domitianum praecipitem per scalas itidem funibus constrinxerunt, eosque coniunctos per ampla spatia civitatis acri raptavere discursu. iamque artuum et membrorum divulsa conpage superscandentes corpora mortuorum ad ultimam truncata deformitatem velut exsaturati mox abiecerunt in flumen.
-            
-            Alii nullo quaerente vultus severitate adsimulata patrimonia sua in inmensum extollunt, cultorum ut puta feracium multiplicantes annuos fructus, quae a primo ad ultimum solem se abunde iactitant possidere, ignorantes profecto maiores suos, per quos ita magnitudo Romana porrigitur, non divitiis eluxisse sed per bella saevissima, nec opibus nec victu nec indumentorum vilitate gregariis militibus discrepantes opposita cuncta superasse virtute.
-            
-            In his tractibus navigerum nusquam visitur flumen sed in locis plurimis aquae suapte natura calentes emergunt ad usus aptae multiplicium medelarum. verum has quoque regiones pari sorte Pompeius Iudaeis domitis et Hierosolymis captis in provinciae speciem delata iuris dictione formavit.</p>
-    </body>
+        </div>
+    </header>
+    <!--SLIDER TXT-->
+    <div id="slider"><!--global block - one radio input per slide : if the slide is active (clicking on arrows), it will be marked as "checked"-->
+      <input type="radio" name="slider" id="slide1" checked>
+      <input type="radio" name="slider" id="slide2">
+      <input type="radio" name="slider" id="slide3">
+      <input type="radio" name="slider" id="slide4">
+      <div id="slides"><!--all slidesr-->
+        <div class="inner"><!--all slides, next to each other-->
+          <div class="slide slide_1"><!--first slide-->
+            <div class="slide-content"><!--text-->
+              <div class="text-and-button">
+                <h2>Your post title goes right over here</h2>
+                <p>
+                  Quibus occurrere bene pertinax miles explicatis ordinibus parans hastisque feriens scuta qui habitus iram pugnantium concitat et dolorem proximos iam gestu terrebat sed eum in certamen alacriter consurgentem revocavere ductores rati intempestivum anceps subire certamen cum haut longe muri distarent, quorum tutela securitas poterat in solido locari cunctorum.
+                </p>
+              </div><!--slide content - slide 1-->
+              <div class="read-more">
+                <button type="button" name="button">Read more</button>
+              </div>
+            </div>
+          </div><!--slide 1 - global-->
+          <div class="slide slide_2"><!--second slide-->
+            <div class="slide-content"><!--text-->
+              <h2>Your post title goes right over here</h2>
+              <p>
+                Quibus occurrere bene pertinax miles explicatis ordinibus parans hastisque feriens scuta qui habitus iram pugnantium concitat et dolorem proximos iam gestu terrebat sed eum in certamen alacriter consurgentem revocavere ductores rati intempestivum anceps subire certamen cum haut longe muri distarent, quorum tutela securitas poterat in solido locari cunctorum.
+              </p>
+              <button type="button" name="button">Read more</button>
+            </div><!--slide content - slide 2-->
+          </div><!--slide 2 - global-->
+          <div class="slide slide_3"><!--third slide-->
+            <div class="slide-content"><!--text-->
+              <h2>Your post title goes right over here</h2>
+              <p>
+                Quibus occurrere bene pertinax miles explicatis ordinibus parans hastisque feriens scuta qui habitus iram pugnantium concitat et dolorem proximos iam gestu terrebat sed eum in certamen alacriter consurgentem revocavere ductores rati intempestivum anceps subire certamen cum haut longe muri distarent, quorum tutela securitas poterat in solido locari cunctorum.
+              </p>
+              <button type="button" name="button">Read more</button>
+            </div><!--text-->
+          </div><!--slide 3 - global-->
+          <div class="slide slide_4"><!--fourth slide-->
+            <div class="slide-content"><!--text-->
+              <h2>Your post title goes right over here</h2>
+              <p>
+                Quibus occurrere bene pertinax miles explicatis ordinibus parans hastisque feriens scuta qui habitus iram pugnantium concitat et dolorem proximos iam gestu terrebat sed eum in certamen alacriter consurgentem revocavere ductores rati intempestivum anceps subire certamen cum haut longe muri distarent, quorum tutela securitas poterat in solido locari cunctorum.
+              </p>
+              <button type="button" name="button">Read more</button>
+            </div><!--text-->
+          </div><!--slide 4 - global-->
+        </div><!--class = "inner"-->
+      </div><!--id = "slides"-->
+      <div id="controls">
+        <label for="slide1"></label>
+        <label for="slide2"></label>
+        <label for="slide3"></label>
+        <label for="slide4"></label>
+      </div>
+      <div id="bullets">
+        <label for="slide1"></label>
+        <label for="slide2"></label>
+        <label for="slide3"></label>
+        <label for="slide4"></label>
+      </div>
+    </div><!--id = "slider"-->
+  </body>
 </html>
