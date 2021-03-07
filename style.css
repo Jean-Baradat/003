@@ -194,6 +194,7 @@ div.inputsubmit{
 
 #slides
 {
+	margin-top :  20px;
 	padding : 0;
 	position : relative;
 	width : 100%;
@@ -223,7 +224,7 @@ div.inputsubmit{
 }
 
 #slide1:checked ~ #slides .inner
-{
+{	
 	margin-left : 0;
 }
 
@@ -616,7 +617,7 @@ div#logo{
     font-size:small;	
     }
     
-.h-box {
+.h {
     column-count: 1;
     column-gap: 5em;
     max-width: 210px;
