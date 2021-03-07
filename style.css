@@ -500,24 +500,8 @@ li, p{
 /* Fin Multimédia */
 
 /* footer*/
-    @font-face{
-        font-family: 'Droid Sans';
-        src: url('fonts/droitsans_regular.woff')format('woff'),
-             url('fonts/droitsans_blod.woff')format('woff');
-        font-weight: normal;
-        font-style: normal;
-    }
 
-    @font-face{
-        font-family: 'Kreon';
-        src: url('fonts/kreon_regular.woff')format('woff'),
-             url('fonts/kreon_light.woff') format('woff');
-        font-weight: normal;
-        font-style: normal;
-    }
-
-
-    /* Logo principal */
+/* Logo principal */
 div#logo{
     display: grid;
     grid-template-columns: 1fr 1fr;
