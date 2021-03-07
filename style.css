@@ -66,10 +66,10 @@ div#logo :nth-child(3){
 /* La navication principale */
 header{
     display: grid;
-    grid-template-columns: 0 50% 50%;
+    grid-template-columns: 10% 50% 40%;
     grid-template-rows: 52% 48%;
     grid-template-areas: 
-        "e f f"
+        "e . f"
         "e d d"
         ". . .";
 }
@@ -112,3 +112,55 @@ nav > ul a:hover:not(.pageactive){
     color: #4496a7;
 }
 /* Fin La navigation principale */
+
+/* Les elements en haut à droite */
+div.elementstopright{
+    grid-area: f;
+}
+div.imgsocialicons{
+    float: right;
+    padding-right: 20px;
+    padding-top: 8px;
+}
+div.searcharea{
+    float: right;
+}
+form.formsearch{
+    height: 25px;
+}
+input#inputsearch{
+    outline: none;
+    padding: 5px;
+    padding-right: 30px;
+    border: none;
+    border-bottom: 1px solid #e4e4e4;
+    border-left: 1px solid #e4e4e4;
+    width: 150px;
+    padding-left: 10px;
+    background-color: #F5F5F5;
+}
+input#inputsearch::placeholder{
+    font-size: 12px;
+    font-family:'Kreon', Arial, sans-serif;
+    font-style: italic;
+    color: #acacac;
+}
+input#inputsearch::-webkit-search-cancel-button{
+    -webkit-appearance: none;
+    appearance: none;
+}
+input[type="submit"]{
+    background: url("images/search_btn.png") center no-repeat;
+    width: 30px;
+    height: 26px;
+    padding-left: 0;
+    cursor:pointer;
+    outline: none;
+    border: none;
+}
+div.inputsubmit{
+    position: relative;
+    left: 120px;
+    top: -26px;
+}
+/* Fin Les elements en haut à droite */
