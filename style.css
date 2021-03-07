@@ -136,9 +136,9 @@ button /*read more*/
 
 #controls /*arrows and slide counter combination*/
 {
-	margin : -180px 0 0 0;
+	margin : -200px 0 0 0;
 	width : 100%;
-	height : 50px;
+	height : 65px;
 	z-index : 3;
 	position : relative;
 }
