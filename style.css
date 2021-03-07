@@ -372,7 +372,7 @@ main h2, main h3{
     font-weight: normal;
     margin: 2%;
 }
-li, p{
+.bulletpoint li, .articles p{
     font-family:'Droid Sans',Arial,Verdana,sans-serif;
 }
 .articles, .media{
@@ -641,6 +641,9 @@ div#logo{
 .r-footer {
     flex: 2 0px;
     }
+.footer p
+{
+	 font-size : small;
+	color : #999;
     }
-    
 
