@@ -617,7 +617,7 @@ div#logo :nth-child(3){
     font-size:small;	
     }
     
-.h {
+.h-box {
     column-count: 1;
     column-gap: 5em;
     max-width: 210px;
