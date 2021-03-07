@@ -502,7 +502,7 @@ li, p{
     box-sizing: border;
     }
     @font-face{
-        font-family: 'Droit sans';
+        font-family: 'Droid Sans';
         src: url('fonts/droitsans_regular.woff')format('woff'),
              url('fonts/droitsans_blod.woff')format('woff');
         font-weight: normal;
