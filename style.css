@@ -1,4 +1,4 @@
-/*BACKGROUND ET PAGE GENERALE*/
+/*BACKGROUND AND GENERAL PAGE*/
 html
 {
 	background-image : url(images/background.png);
@@ -20,7 +20,7 @@ h1, h2, h3, button
 	font-family : "Kreon", Arial, sans-serif;
 }
 
-/*SLIDER*/ /*originally from anna block*/
+/*SLIDER*/ /*inspired by Anna Blok : https://codepen.io/anna_blok/pen/eYYRbQY*/
 #slider
 {
 	margin : 0 auto;
@@ -51,7 +51,7 @@ h1, h2, h3, button
 {
 	transition : margin-left 800ms cubic-bezier(0.770, 0.000, 0.175, 1.000);
 	width : 400%;
-	height : 400px;
+	height : 450px;
 }
 
 #slides .slide
@@ -88,26 +88,39 @@ h1, h2, h3, button
 	margin-left : -300%;
 }
 
-.slide-content /*dark grey block, containing an excerpt from the post*/
+.slide-content /*dark grey block, containing an excerpt from the article*/
 {
-	margin : 50px 0 50px 750px;
+	margin : 65px 5% 0 51.5%;
 	padding : 40px 0 0 50px;
-	width : 440px;
-	height : 260px;
+	height : 285px;
 	align-items : center;
 	background : #585858;
 	color : white;
 }
-
-.slide-content p
+div.text-and-button
 {
-	padding-right : 40px;
-	padding-bottom : 40px;
+	overflow : auto;
+	height : 250px;
 }
 
 .slide-content h2
 {
 	padding-right : 40px;
+	font-size : 35px;
+	margin-bottom : 6px;
+}
+
+.slide-content p
+{
+	margin : 0;
+	padding-right : 40px;
+	font-size : 16px;
+	line-height : 27.5px;
+}
+
+div.read-more /*contains the "read more" button*/
+{
+	position : relative;
 }
 
 button /*read more*/
@@ -119,7 +132,6 @@ button /*read more*/
 	border-radius : 1px;
 	cursor : pointer;
 	padding : 10px 15px;
-	margin : -51px 0 0 0;
 }
 
 #controls /*arrows and slide counter combination*/
