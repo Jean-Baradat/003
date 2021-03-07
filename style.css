@@ -525,14 +525,14 @@ div#logo{
         "a c ."
         ". . .";
 }
-div#logo :nth-child(1){
+.l-footer div#logo :nth-child(1){
     grid-area: a;
-    margin-top: 30px;
+    margin-top: 45px;
     margin-left: 35px;
     padding-right: 5px;
 
 }
-div#logo :nth-child(2){
+.l-footer div#logo :nth-child(2){
     grid-area: b;
     width: min-content;
 	margin-top : 25px;
@@ -542,7 +542,7 @@ div#logo :nth-child(2){
     font-family: 'Kreon', Arial, sans-serif;
 
 }
-div#logo :nth-child(3){
+.l-footer div#logo :nth-child(3){
     grid-area: c;
 	padding-bottom : 15px;
     width: 210px;
