@@ -629,7 +629,7 @@ div#logo{
 .r-footer > * {
     flex: 1;
     }
-    
+}
 .features {
     flex-grow: 1;
     }
@@ -646,5 +646,4 @@ div#logo{
 	font-size : small;
 	color : #999;
 	font-family:'Droid Sans',Arial,Verdana,sans-serif;
-}
 }
